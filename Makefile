@@ -1,6 +1,6 @@
 CC = gcc
 CFLAGS = -Wall -Wextra -Werror -std=c2x -pedantic
-OBJS = main.o stack.o
+OBJS = main.o stack.o parser.o
 BIN = main
 
 all: $(BIN)
